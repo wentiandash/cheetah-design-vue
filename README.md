@@ -4,7 +4,7 @@
 <p align="center">A Vue.js prebuilt component library based on <a herf="https://github.com/htmlstreamofficial/preline">Preline</a> design draft that allows you to make beautiful websites.</p>
 </p>
 <p align="center">
-  <a href="https://www.npmjs.com/package/play-ui"><img src="https://img.shields.io/npm/v/play-ui" alt="NPM version"></a>
+  <a href="https://www.npmjs.com/package/cheetah-design-vue"><img src="https://img.shields.io/npm/v/play-ui" alt="NPM version"></a>
   <a href="https://vuejs.org/"><img src="https://img.shields.io/npm/dependency-version/play-ui/peer/vue" alt="peer dependency"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/github/license/jwhupup/play-ui" alt="license"></a>
   <p align="center">
@@ -37,7 +37,7 @@ The starting point of this project is personal learning, but not limited to it. 
 
 Developers interested in contributing should read the [Code of Conduct](./CODE_OF_CONDUCT.md) and the [Contributing Guide](./CONTRIBUTING.md).
 
-Thank you to all the people who already contributed to PlayUI!
+Thank you to all the people who already contributed to Cheetah Design Vue!
 
 <a href="https://github.com/wentiandash/cheetah-design-vue/pulse">
   <img style="width: 88px;height: 88px;border-radius: 50%;" src="https://image.tianyans.com/blog/163961677691900_.pic.jpg" />
