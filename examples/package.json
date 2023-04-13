@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cheetah-design-vue": "workspace:1.0.2-beta"
+  }
+}

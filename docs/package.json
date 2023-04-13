@@ -1,0 +1,25 @@
+{
+  "name": "@cheetah-design-vue/docs",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "cheetah-design-vue docs",
+  "keywords": [
+    "cheetah-design-vue",
+    "components",
+    "ui",
+    "preline"
+  ],
+  "scripts": {
+    "dev": "vitepress dev --port 9999 --host",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1"
+  },
+  "devDependencies": {
+    "@cheetah-design-vue/docs": "workspace:*",
+    "@types/markdown-it": "^12.2.3"
+  }
+}
