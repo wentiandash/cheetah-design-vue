@@ -40,7 +40,10 @@ Developers interested in contributing should read the [Code of Conduct](./CODE_O
 Thank you to all the people who already contributed to Cheetah Design Vue!
 
 <a href="https://github.com/wentiandash/cheetah-design-vue/pulse">
-  <img style="width: 88px;height: 88px;border-radius: 50%" src="https://image.tianyans.com/blog/163961677691900_.pic.jpg" />
+  <img style="border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;width: 88px;height: 88px;" src="https://image.tianyans.com/blog/163961677691900_.pic.jpg" />
 </a>
 
 ## Credits
