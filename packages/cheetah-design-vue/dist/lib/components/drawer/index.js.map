@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../../../src/components/drawer/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Drawer from './src/index'\n\nexport const ChDrawer = withInstall(Drawer)\nexport default ChDrawer\nexport * from './src/index'\n"],"names":["withInstall","Drawer"],"mappings":";;;;AAGa,MAAA,WAAWA,oBAAYC,MAAM,OAAA;;;"}

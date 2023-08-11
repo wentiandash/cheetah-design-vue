@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../../../../src/components/message/index.ts"],"sourcesContent":["import Message from './src/index'\n\nexport const PlMessage = Message\nexport default PlMessage\nexport * from './src/index'\n"],"names":[],"mappings":";;AAEO,MAAM,YAAY;"}

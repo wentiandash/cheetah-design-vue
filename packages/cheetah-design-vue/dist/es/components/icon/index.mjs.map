@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../../../../src/components/icon/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Icon from './src/index.vue'\n\nexport const ChIcon = withInstall(Icon)\nexport default ChIcon\n"],"names":["Icon"],"mappings":";;AAGa,MAAA,SAAS,YAAYA,SAAI;"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../../../../src/components/button/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Button from './src/index.vue'\n\nexport const ChButton = withInstall(Button)\nexport default ChButton\nexport * from './src'\n"],"names":["Button"],"mappings":";;;AAGa,MAAA,WAAW,YAAYA,SAAM;"}

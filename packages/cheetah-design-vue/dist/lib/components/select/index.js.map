@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../../../src/components/select/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Select from './src/index'\n\nexport const ChSelect = withInstall(Select)\nexport default ChSelect\n"],"names":["withInstall","Select"],"mappings":";;;;AAGa,MAAA,WAAWA,oBAAYC,MAAM,OAAA;;;"}

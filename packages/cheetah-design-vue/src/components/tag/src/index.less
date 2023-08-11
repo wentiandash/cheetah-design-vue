@@ -1,0 +1,109 @@
+.ch-tag {
+  &--primary {
+    --ch-tag-solid-bg-color: var(--ch-blue-500);
+    --ch-tag-outline-border-color: var(--ch-blue-500);
+    --ch-tag-outline-text-color: var(--ch-blue-500);
+    --ch-tag-soft-bg-color: var(--ch-blue-100);
+    --ch-tag-soft-text-color: var(--ch-blue-500);
+    --ch-tag-solid-close-color: var(--ch-blue-400);
+  }
+
+  &--info {
+    --ch-tag-solid-bg-color: var(--ch-gray-500);
+    --ch-tag-outline-border-color: var(--ch-gray-500);
+    --ch-tag-outline-text-color: var(--ch-gray-500);
+    --ch-tag-soft-bg-color: var(--ch-gray-100);
+    --ch-tag-soft-text-color: var(--ch-gray-500);
+    --ch-tag-solid-close-color: var(--ch-gray-400);
+  }
+
+  &--success {
+    --ch-tag-solid-bg-color: var(--ch-teal-500);
+    --ch-tag-outline-border-color: var(--ch-teal-500);
+    --ch-tag-outline-text-color: var(--ch-teal-500);
+    --ch-tag-soft-bg-color: var(--ch-teal-100);
+    --ch-tag-soft-text-color: var(--ch-teal-500);
+    --ch-tag-solid-close-color: var(--ch-teal-400);
+  }
+
+  &--warning {
+    --ch-tag-solid-bg-color: var(--ch-orange-500);
+    --ch-tag-outline-border-color: var(--ch-orange-500);
+    --ch-tag-outline-text-color: var(--ch-orange-500);
+    --ch-tag-soft-bg-color: var(--ch-orange-100);
+    --ch-tag-soft-text-color: var(--ch-orange-500);
+    --ch-tag-solid-close-color: var(--ch-orange-400);
+  }
+
+  &--danger {
+    --ch-tag-solid-bg-color: var(--ch-red-500);
+    --ch-tag-outline-border-color: var(--ch-red-500);
+    --ch-tag-outline-text-color: var(--ch-red-500);
+    --ch-tag-soft-bg-color: var(--ch-red-100);
+    --ch-tag-soft-text-color: var(--ch-red-500);
+    --ch-tag-solid-close-color: var(--ch-red-400);
+  }
+}
+
+.ch-tag {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  font-size: 12px;
+  line-height: 16px;
+  gap: 6px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--solid {
+    background: var(--ch-tag-solid-bg-color);
+    color: white;
+  }
+
+  &--outline {
+    border: 1px solid var(--ch-tag-outline-border-color);
+    background: transparent;
+    color: var(--ch-tag-outline-text-color);
+  }
+
+  &--soft {
+    background: var(--ch-tag-soft-bg-color);
+    color: var(--ch-tag-soft-text-color);
+  }
+
+  &--rounded {
+    border-radius: 6px;
+  }
+
+  &--pilled {
+    border-radius: 999px;
+  }
+
+  &&--solid .is-closable:hover {
+    background-color: var(--ch-tag-solid-close-color);
+  }
+
+  .is-indicator {
+    width: 6px;
+    height: 6px;
+    margin-right: 6px;
+    border-radius: 50%;
+    background-color: currentColor;
+  }
+
+  .is-closable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      color: white;
+      background-color: var(--ch-tag-solid-bg-color);
+    }
+  }
+}

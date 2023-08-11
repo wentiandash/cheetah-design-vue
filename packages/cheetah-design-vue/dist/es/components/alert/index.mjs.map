@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../../../../src/components/alert/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Alert from './src/index.vue'\n\nexport const ChAlert = withInstall(Alert)\nexport default ChAlert\nexport type { AlertProps } from './src'\n"],"names":["Alert"],"mappings":";;AAGa,MAAA,UAAU,YAAYA,SAAK;"}

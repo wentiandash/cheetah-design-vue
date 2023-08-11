@@ -1,0 +1,73 @@
+[data-theme="light"] .ch-steps {
+    --ch-steps-name-color: var(--ch-gray-800);
+    --ch-steps-description-color: var(--ch-gray-500);
+    --ch-steps-pipe-color: var(--ch-gray-100);
+}
+
+[data-theme="dark"] .ch-steps {
+    --ch-steps-name-color: var(--ch-gray-300);
+    --ch-steps-description-color: var(--ch-gray-500);
+    --ch-steps-pipe-color: var(--ch-gray-800);
+}
+
+.ch-steps {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    &.__vertical {
+        flex-direction: column;
+        width: fit-content;
+        height: 100%;
+    }
+
+    &-content {
+        margin-top: 8px;
+        width: 100px;
+        max-width: 100px;
+
+        &.__vertical {
+            max-width: 150px;
+            max-height: 0;
+            margin-top: 0;
+            margin-left: 8px;
+            text-align: left;
+        }
+    }
+
+    &-item {
+        height: fit-content;
+        text-align: center;
+        align-items: baseline;
+
+        &.__vertical {
+            display: flex;
+        }
+
+        &-name {
+            font-weight: bold;
+            color: var(--ch-steps-name-color);
+        }
+
+        &-description {
+            font-size: 14px;
+            color: var(--ch-steps-description-color);
+        }
+
+        &-pipe {
+            width: 100%;
+            height: 2px;
+            margin-top: 15px;
+            border-radius: 2px;
+            background: var(--ch-steps-pipe-color);
+
+            &.__vertical {
+                width: 2px;
+                height: 100%;
+                margin-bottom: 15px;
+                margin-left: 15px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../../../../src/components/input/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Input from './src/index.vue'\n\nexport const ChInput = withInstall(Input)\nexport default ChInput\n"],"names":["Input"],"mappings":";;AAGa,MAAA,UAAU,YAAYA,SAAK;"}

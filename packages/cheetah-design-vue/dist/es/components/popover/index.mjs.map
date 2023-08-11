@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../../../../src/components/popover/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Popover from './src/index'\n\nexport const ChPopover = withInstall(Popover)\nexport default ChPopover\nexport * from './src/index'\n"],"names":[],"mappings":";;AAGa,MAAA,YAAY,YAAY,OAAO;"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../../../src/components/steps/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Steps from './src/index'\n\nexport const ChSteps = withInstall(Steps)\nexport default ChSteps\nexport * from './src/index'\n"],"names":["withInstall","Steps"],"mappings":";;;;AAGa,MAAA,UAAUA,oBAAYC,MAAK,OAAA;;;"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../../../src/components/tag/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Tag from './src/index.vue'\n\nexport const ChTag = withInstall(Tag)\nexport default ChTag\n"],"names":["withInstall","Tag"],"mappings":";;;;AAGa,MAAA,QAAQA,oBAAYC,0CAAG,OAAA;;;"}

@@ -1,0 +1,105 @@
+[data-theme="light"] .ch-table {
+    --ch-table-text-color: var(--ch-gray-800);
+    --ch-table-border: 1px solid var(--ch-gray-200);
+    --ch-table-header-text-color: var(--ch-gray-500);
+    --ch-table-header-bg-color: white;
+    --ch-table-striped-row-color: var(--ch-gray-100);
+    --ch-table-row-hover-bg: var(--ch-gray-300);
+    --ch-scrollbar-thumb-color: var(--ch-gray-200);
+}
+
+[data-theme="dark"] .ch-table {
+    --ch-table-text-color: var(--ch-gray-400);
+    --ch-table-border: 1px solid var(--ch-gray-700);
+    --ch-table-header-text-color: var(--ch-gray-300);
+    --ch-table-header-bg-color: var(--ch-slate-900);
+    --ch-table-striped-row-color: var(--ch-slate-800);
+    --ch-table-row-hover-bg: var(--ch-slate-600);
+    --ch-scrollbar-thumb-color: var(--ch-gray-600);
+}
+
+.ch-table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    font-size: 14px;
+    overflow: hidden;
+    color: var(--ch-table-text-color);
+
+    &--border div {
+        border-left: none;
+        border-right: none;
+    }
+
+    &:hover {
+        overflow: auto;
+    }
+
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 3px;
+        background-color: var(--ch-scrollbar-thumb-color);
+    }
+
+    &::-webkit-scrollbar-corner {
+        background-color: transparent;
+    }
+
+    &-header {
+        display: inline-flex;
+        width: fit-content;
+        border-top: var(--ch-table-border);
+        border-left: var(--ch-table-border);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        font-weight: 600;
+        color: var(--ch-table-header-text-color);
+        background-color: var(--ch-table-header-bg-color);
+
+        &-cell {
+            display: flex;
+            flex-direction: column;
+
+            &-children {
+                display: flex;
+            }
+        }
+    }
+
+    &-body {
+        width: fit-content;
+        border-left: var(--ch-table-border);
+    }
+
+    &-cell {
+        height: 100%;
+        padding: 8px 12px;
+        line-height: 23px;
+        border-bottom: var(--ch-table-border);
+        border-right: var(--ch-table-border);
+        word-break: break-all;
+    }
+
+    &-row {
+        display: flex;
+
+        div {
+            height: auto;
+        }
+
+        &:hover {
+            background-color: var(--ch-table-row-hover-bg) !important;
+        }
+
+        &--striped:nth-child(odd) {
+            background-color: var(--ch-table-striped-row-color);
+        }
+    }
+}

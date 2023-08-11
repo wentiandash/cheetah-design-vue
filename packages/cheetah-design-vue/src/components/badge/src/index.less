@@ -1,0 +1,58 @@
+[data-theme="light"],
+[data-theme="light"] .ch-badge {
+  --ch-badge-border-color: white;
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .ch-badge {
+  --ch-badge-border-color: var(--ch-slate-800);
+}
+
+
+.ch-badge {
+  padding: 2px 4px;
+  font-size: 12px;
+  line-height: 12px;
+  border-radius: 999px;
+  border: 1px solid var(--ch-badge-border-color);
+  color: white;
+
+  &-container {
+    display: inline-block;
+    position: relative;
+  }
+
+  &--primary {
+    background-color: var(--ch-blue-500);
+  }
+
+  &--info {
+    background-color: var(--ch-gray-500);
+  }
+
+  &--success {
+    background-color: var(--ch-teal-500);
+  }
+
+  &--warning {
+    background-color: var(--ch-orange-500);
+  }
+
+  &--danger {
+    background-color: var(--ch-red-500);
+  }
+
+  &.is-position {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+  }
+
+  &.is-dot {
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    border-radius: 50%;
+  }
+}

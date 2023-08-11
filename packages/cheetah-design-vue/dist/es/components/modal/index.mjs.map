@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../../../../src/components/modal/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Modal from './src/index'\n\nexport const ChModal = withInstall(Modal)\nexport default ChModal\nexport * from './src/index'\n"],"names":[],"mappings":";;AAGa,MAAA,UAAU,YAAY,KAAK;"}

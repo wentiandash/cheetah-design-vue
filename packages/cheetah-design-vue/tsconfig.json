@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "allowJs": true,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "emitDeclarationOnly": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "gulpfile.ts",
+    "**/test/**/*",
+    "**/style/**/*",
+    "**/*.md"
+  ]
+}

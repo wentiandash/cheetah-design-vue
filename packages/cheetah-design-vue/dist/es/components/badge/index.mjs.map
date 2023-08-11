@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../../../../src/components/badge/index.ts"],"sourcesContent":["import { withInstall } from '../../utils'\nimport Badge from './src/index.vue'\n\nexport const ChBadge = withInstall(Badge)\nexport default ChBadge\nexport * from './src'\n"],"names":["Badge"],"mappings":";;;AAGa,MAAA,UAAU,YAAYA,SAAK;"}
