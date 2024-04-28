@@ -6,7 +6,7 @@
       :estimated-list-item-height="50"
     >
       <ChVirtualListItem v-for="(item, index) in list" :key="index">
-        <div style="color: #fff; box-sizing: border-box; padding: 5px">
+        <div style="box-sizing: border-box; padding: 5px">
           {{ item }}
         </div>
       </ChVirtualListItem>

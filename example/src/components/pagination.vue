@@ -2,25 +2,26 @@
   <div style="height: 500px; padding: 30px;">
     <ChPagination ref="paginations" :count="count" mode="ghost" shape="circle" />
 
-    <button @click="handlePrevClick">
+    <ChButton @click="handlePrevClick">
       prev
-    </button>
-    <button @click="handleNextClick">
+    </ChButton>
+    <ChButton @click="handleNextClick">
       next
-    </button>
-    <button @click="handleToggleClick">
+    </ChButton>
+    <ChButton @click="handleToggleClick">
       toggle
-    </button>
-    <button @click="handleAddClick">
+    </ChButton>
+    <ChButton @click="handleAddClick">
       add step
-    </button>
-    <button @click="handleSubClick">
+    </ChButton>
+    <ChButton @click="handleSubClick">
       sub step
-    </button>
+    </ChButton>
   </div>
 </template>
 
 <script setup lang="ts">
+import { ChButton } from 'cheetah-design-vue';
 import { ref } from 'vue'
 
 const count = ref(10)

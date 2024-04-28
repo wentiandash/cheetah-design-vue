@@ -7,7 +7,7 @@
     </ChScrollbar>
   </div>
   <ChButton @click="handleScroll">
-    scroll
+    回到顶部
   </ChButton>
 </template>
 

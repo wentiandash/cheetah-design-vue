@@ -10,14 +10,14 @@
         </div>
       </template> -->
   </ChModal>
-  <button @click="handleClick">
+  <ChButton @click="handleClick">
     open modal
-  </button>
+  </ChButton>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { ModalInstance } from 'cheetah-design-vue'
+import { ChButton, type ModalInstance } from 'cheetah-design-vue'
 
 const modal = ref<ModalInstance>()
 

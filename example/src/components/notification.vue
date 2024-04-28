@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 const handleClick = () => {
-  PlNotification({
+  ChNotification({
     title: 'App notifications',
     content: 'Notifications may include alerts, sounds and icon badges.',
     cancelButtonText: 'Cancel',
@@ -15,7 +15,7 @@ const handleClick = () => {
     onCancel() {
       alert('Cancel')
     },
-    onConfirm(notify) {
+    onConfirm(notify: { close: () => void; }) {
       notify.close()
     },
   })

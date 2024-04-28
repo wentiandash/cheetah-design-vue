@@ -5,14 +5,13 @@
 </template>
 
 <script setup lang="ts">
-import 'cheetah-design-vue/styles/base.less'
-import 'cheetah-design-vue/components/alert/src/index.less'
-import 'cheetah-design-vue/components/message/src/index.less'
-import { PlMessage } from 'cheetah-design-vue'
+import 'cheetah-design-vue/src/styles/base.less'
+import 'cheetah-design-vue/src/components/alert/src/index.less'
+import 'cheetah-design-vue/src/components/message/src/index.less'
 
 const handleClick = () => {
   ['info', 'success', 'warning', 'danger'].forEach((item) => {
-    PlMessage({
+    ChMessage({
       state: item as 'info' | 'success' | 'warning' | 'danger',
       content: 'Notifications may include alerts, sounds and icon badges, sounds and icon badges',
     })

@@ -4,16 +4,16 @@
     <!-- <ChSteps ref="stepsEl" v-model="steps" vertical /> -->
     <br>
     <br>
-    <button @click="handleToggleClick">
+    <ChButton @click="handleToggleClick">
       toggle
-    </button>
+    </ChButton>
     <br>
     <br>
   </div>
 </template>
 
 <script setup lang="ts">
-import type { StepsInstance, StepsItem } from 'cheetah-design-vue'
+import type { ChButton, StepsInstance, StepsItem } from 'cheetah-design-vue'
 import { ref } from 'vue'
 
 const stepsEl = ref<StepsInstance>()

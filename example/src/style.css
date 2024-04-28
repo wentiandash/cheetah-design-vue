@@ -15,10 +15,11 @@
 }
 
 [data-theme="light"] body {
-  background-color: white;
+  background-color: var(--ch-neutral-50);
   transition:all 0.7s ease-in-out;
   transform-style: preserve-3d;
   backface-visibility: hidden;
+  color: var(--ch-slate-900);
 }
 
 [data-theme="dark"] body {
@@ -26,6 +27,7 @@
   transition:all 0.7s ease-in-out;
   transform-style: preserve-3d;
   backface-visibility: hidden;
+  color: var(--ch-neutral-50);
 }
 
 a {
@@ -74,7 +76,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
   }
   a:hover {
     color: #747bff;
